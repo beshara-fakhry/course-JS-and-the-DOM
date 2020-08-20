@@ -1,1 +1,3 @@
-document.addEventListener('click',function(){console.log('the page was clicked ');});
+document.addEventListener('click',function (){
+  const mainHeading=document.querySelector('h1');
+  mainHeading.style.backgroundColor='red';})
